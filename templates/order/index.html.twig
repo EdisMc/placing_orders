@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Order List{% endblock %}
+
+{% block body %}
+    <h1>Orders List</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Order_number</th>
+            <th>Client_name</th>
+        </tr>
+        <tr>
+            <td>1673842850</td>
+            <td>Michelle Snow</td>
+        </tr>
+        <tr>
+            <td>2345665793</td>
+            <td>Maria Bogdanska</td>
+        </tr>
+        </thead>
+        <tbody>
+        {% for order in orders %}
+            <tr>
+                <td>{{ order.orderNumber }}</td>
+                <td>{{ order.clientName }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
+
