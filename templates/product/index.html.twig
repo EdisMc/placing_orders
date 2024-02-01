@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product List{% endblock %}
+
+{% block body %}
+    <h1>Products</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Engine_capacity</th>
+            <th>Colour</th>
+        </tr>
+        <td>Mercedes</td>
+        <td>S</td>
+        <td>3.0</td>
+        <td>gray</td>
+        <tr>
+            <td>BMW</td>
+            <td>E60</td>
+            <td>2.6</td>
+            <td>black</td>
+        </tr>
+        <tr>
+            <td>Scania</td>
+            <td>V8</td>
+            <td>16</td>
+            <td>blue</td>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+{% endblock %}
+{#{% extends 'base.html.twig' %}#}
+
+{#{% block title %}Product List{% endblock %}#}
+
+{#{% block body %}#}
+{#    <h1>Product List</h1>#}
+
+{#    <table>#}
+{#        <thead>#}
+{#        <tr>#}
+{#            <th>Brand</th>#}
+{#            <th>Model</th>#}
+{#            <th>Engine Capacity</th>#}
+{#            <th>Colour</th>#}
+{#          
+{#        </tr>#}
+{#        </thead>#}
+{#        <tbody>#}
+{#        {% for product in products %}#}
+{#            <tr>#}
+{#                <td>{{ product.brand }}</td>#}
+{#                <td>{{ product.model }}</td>#}
+{#                <td>{{ product.engineCapacity }}</td>#}
+{#                <td>{{ product.colour }}</td>#}
+{#
+{#            </tr>#}
+{#        {% endfor %}#}
+{#        </tbody>#}
+{#    </table>#}
+{#{% endblock %}#}
