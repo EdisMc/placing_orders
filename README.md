@@ -1,4 +1,4 @@
-A system for placing orders. Used technologies: PHP, Symfony/Twig, HTML & CSS, JS.
+A system for placing orders. Used technologies: PHP, Symfony/Twig, HTML & CSS, JS, Ajax.
 
 ![1](https://github.com/EdisMc/placing_orders/assets/92871901/d5dd457f-b8bb-4d0f-a2c2-ce3dbb0f1633)
 
